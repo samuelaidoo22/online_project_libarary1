@@ -1,0 +1,17 @@
+/storage/
+/uploads/
+.env
+config/env.local.php
+/vendor/
+/composer.phar
+
+# Debug and temporary files
+login_response.txt
+tmp_*.php
+tmp_*.html
+*.log
+
+# Local database and seed helpers
+config/mock_db.php
+config/seed_data.sql
+config/seed_real_db.php
